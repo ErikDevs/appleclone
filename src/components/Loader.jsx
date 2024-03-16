@@ -1,0 +1,9 @@
+import React from "react";
+
+function Loader() {
+  return (
+    <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center"></div>
+  );
+}
+
+export default Loader;
